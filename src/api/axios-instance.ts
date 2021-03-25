@@ -11,6 +11,6 @@ export const getAxiosInstance = () : AxiosInstance => {
         if (status > 399) console.info(`Erro na API. Status: ${status}`)
     }
     )
-    return axiosInstance;
+    return axiosInstance; 
 
 }
